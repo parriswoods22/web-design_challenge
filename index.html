@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Web Design Homework</title>
+</head>
+<body style="background-color:rgb(88, 86, 86);">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="max_temps.html">Max Temps <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="humidity.html">Humidity</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cloudiness.html">Cloudiness</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wind_speed.html">Wind Speed</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Dataset</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Summary: Latitude vs. X</h1>
+      <p class="lead">
+        The purpose of this project is tp analyze how weather changes as you get closer to the equator. To accomplish this analysis, we fitst pulled data from the OpenWeather API to assamble a dataset on over 500 cities. <br><br>
+        After assembeling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:
+        <ul>
+          <li>Temperature</li>
+          <li>Cloudiness</li>
+          <li>Wind Speed</li>
+          <li>Humidity</li>
+        </ul>
+        This site provides the source data abd visualizations created as part of the analysis, as well as explanations of any trends and correlation witnessed.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="card" style="width: 20rem;">
+          <a href="max_temps.html">
+          <img src="Resources\assets\images\Fig1.png" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <p class="card-text">Latitude vs. Max Temperature</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="card" style="width: 20rem;">
+          <a href="humidity.html">
+            <img src="Resources\assets\images\Fig2.png" class="card-img-top" alt="...">
+            </a>
+          <div class="card-body">
+            <p class="card-text">Latitude vs. Humidity</p>
+          </div>
+        </div>
+      </div>
+   </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="card" style="width: 20rem;">
+          <a href="cloudiness.html">
+            <img src="Resources\assets\images\Fig3.png" class="card-img-top" alt="...">
+            </a>
+          <div class="card-body">
+            <p class="card-text">Latitude vs. Cloudiness</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="card" style="width: 20rem;">
+          <a href="wind_speed.html">
+            <img src="Resources\assets\images\Fig4.png" class="card-img-top" alt="...">
+            </a>
+          <div class="card-body">
+            <p class="card-text">Latitude vs. Wind Speed</p>
+          </div>
+        </div>
+      </div>
+   </div>
+  </div>
+
+
+  
+</body>
+</html>
